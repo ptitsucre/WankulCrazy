@@ -86,7 +86,7 @@ namespace WankulCrazyPlugin.patch
                 }
 
                 // Calcul de l'XP gagnée
-                totalExpGained += WankulCardsData.GetExperienceFromWankulCard(wankulCard);
+                totalExpGained += WankulCardsData.GetExperienceFromWankulCard(wankulCard);*10
                 // Ajout de la valeur de la carte dans la liste des prix
                 ___m_CardValueList.Add(wankulCard.MarketPrice);
             }
